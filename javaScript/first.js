@@ -25,7 +25,11 @@ const foods1 = document.querySelector("#food")
 
 
 const foodsItem = document.querySelectorAll(".list");
-console.log(foodsItem)
+// console.log(foodsItem)
 for (let food of foodsItem) {
-    console.log(food.innerText)
+    food.style.background = "cyan";
+    food.style.fontSize = "40px";
+    food.style.marginBottom = "30px"
+    food.style.borderRadius = "10px";
+
 }

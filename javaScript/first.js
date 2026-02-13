@@ -14,3 +14,7 @@ for (let list of listItem) {
     console.log(list.innerText);
 }
 
+
+
+const company = document.getElementById("food");
+console.log(company);

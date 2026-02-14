@@ -40,3 +40,9 @@ for (let food of foodItem) {
     food.classList.add("all-list")
     food.classList.remove("all-list")
 }
+
+const sectionAll = document.getElementsByTagName("section");
+console.log(sectionAll);
+
+sectionAll[0].getAttribute("id");
+console.log(sectionAll)

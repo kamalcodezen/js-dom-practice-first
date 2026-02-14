@@ -1,4 +1,5 @@
 
+
 const tagNames = document.getElementsByTagName("h1");
 
 // console.log(tagNames);
@@ -21,15 +22,21 @@ const foods = document.getElementById("food");
 
 
 const foods1 = document.querySelector("#food")
-// console.log(foods1.innerText);
+console.log(foods1.innerText);
 
 
-const foodsItem = document.querySelectorAll(".list");
-// console.log(foodsItem)
-for (let food of foodsItem) {
-    food.style.background = "cyan";
-    food.style.fontSize = "40px";
-    food.style.marginBottom = "30px"
-    food.style.borderRadius = "10px";
+// const foodsItem = document.querySelectorAll(".list");
+// // console.log(foodsItem)
+// for (let food of foodsItem) {
+//     food.style.background = "cyan";
+//     food.style.fontSize = "40px";
+//     food.style.marginBottom = "30px"
+//     food.style.borderRadius = "10px";
+// }
 
+
+const foodItem = document.querySelectorAll("#food");
+for (let food of foodItem) {
+    food.classList.add("all-list")
+    food.classList.remove("all-list")
 }

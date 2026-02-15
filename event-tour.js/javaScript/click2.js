@@ -29,4 +29,20 @@ const makeYellowBtn = document.getElementById("make-yellow-btn");
 makeYellowBtn.onclick = makeYellow;
 function makeYellow() {
     document.body.style.background = "yellow"
-}
+};
+
+
+
+// <!-- option 5 click handler -->
+
+const mainBtn = document.getElementById("main-btn")
+    .addEventListener("click", function () {
+
+        // connect input field
+        const inputText = document.getElementById("input-text");
+        const text = inputText.value;
+        console.log(text)
+
+
+    })
+

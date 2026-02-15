@@ -12,3 +12,14 @@ const makeYellowBtn = document.getElementById("make-yellow-btn");
 makeYellowBtn.onclick = function makeRed() {
     document.body.style.display = "none";
 }
+
+
+// option  click handle
+
+const makePurpleBtn = document.getElementById("make-purple-btn");
+
+makePurpleBtn.onclick = makePurple;
+
+function makePurple() {
+    document.body.style.background = "purple";
+}

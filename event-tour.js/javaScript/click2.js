@@ -41,8 +41,13 @@ const mainBtn = document.getElementById("main-btn")
         // connect input field
         const inputText = document.getElementById("input-text");
         const text = inputText.value;
-        console.log(text)
 
+        // connect and change h1 element text 
+        if (text !== "") {
+            const headingText = document.getElementById("heading-text");
+            headingText.innerText = text;
+            inputText.value = "";
+        }
 
     })
 

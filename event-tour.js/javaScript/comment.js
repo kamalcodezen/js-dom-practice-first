@@ -19,3 +19,9 @@ submitBtn.addEventListener("click", function () {
 
 })
 
+
+// mousemove Event 
+const mousEvent = document.getElementById("submit-btn")
+    .addEventListener("mousemove", function () {
+        console.log("mousemove");
+    })

@@ -23,7 +23,7 @@ submitBtn.addEventListener("click", function () {
 
 
 // mousemove Event 
-const mousEvent = document.getElementById("submit-btn")
+const mouseEvent = document.getElementById("submit-btn")
     .addEventListener("mousemove", function () {
         console.log("mousemove");
     });
@@ -48,3 +48,19 @@ const mouseEvent4 = document.getElementById("submit-btn")
     .addEventListener("mouseout", function () {
         console.log("mouseout");
     });
+
+
+
+
+// input Event focus
+const inputEvent = document.getElementById("input-name")
+    .addEventListener("focus", function () {
+        console.log("fucus");
+    })
+
+
+// input Event focus
+const inputEvent2 = document.getElementById("input-email")
+    .addEventListener("focusin", function () {
+        console.log("focusin");
+    })

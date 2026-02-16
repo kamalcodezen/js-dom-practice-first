@@ -56,11 +56,18 @@ const mouseEvent4 = document.getElementById("submit-btn")
 const inputEvent = document.getElementById("input-name")
     .addEventListener("focus", function () {
         console.log("fucus");
-    })
+    });
 
 
-// input Event focus
+// input Event focusin
 const inputEvent2 = document.getElementById("input-email")
     .addEventListener("focusin", function () {
         console.log("focusin");
-    })
+    });
+
+
+// input Event focusout
+const inputEvent3 = document.getElementById("input-email")
+    .addEventListener("focusout", function () {
+        console.log("focusout");
+    });

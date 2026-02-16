@@ -41,3 +41,10 @@ const mouseEvent3 = document.getElementById("submit-btn")
     .addEventListener("mouseleave", function () {
         console.log("mouseleave");
     });
+
+
+// mouseout Event
+const mouseEvent4 = document.getElementById("submit-btn")
+    .addEventListener("mouseout", function () {
+        console.log("mouseout");
+    });

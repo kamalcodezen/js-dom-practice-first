@@ -1,3 +1,5 @@
+
+// comment box and new comment add
 const submitBtn = document.getElementById("submit-btn");
 
 submitBtn.addEventListener("click", function () {
@@ -31,4 +33,11 @@ const mousEvent = document.getElementById("submit-btn")
 const mouseEvent2 = document.getElementById("submit-btn")
     .addEventListener("mouseenter", function () {
         console.log("mouseEnter");
+    });
+
+
+// mouseleave Event
+const mouseEvent3 = document.getElementById("submit-btn")
+    .addEventListener("mouseleave", function () {
+        console.log("mouseleave");
     });

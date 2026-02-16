@@ -71,3 +71,19 @@ const inputEvent3 = document.getElementById("input-email")
     .addEventListener("focusout", function () {
         console.log("focusout");
     });
+
+
+// keydown Event practice
+const inputName = document.getElementById("input-name");
+inputName.addEventListener("keydown", function () {
+    console.log(inputName.value);
+});
+
+
+// keyup Event practice
+const inputEmail = document.getElementById("input-email");
+inputEmail.addEventListener("keyup", function () {
+    console.log(inputEmail.value);
+});
+
+

@@ -24,4 +24,11 @@ submitBtn.addEventListener("click", function () {
 const mousEvent = document.getElementById("submit-btn")
     .addEventListener("mousemove", function () {
         console.log("mousemove");
-    })
+    });
+
+
+//mouseenter Event
+const mouseEvent2 = document.getElementById("submit-btn")
+    .addEventListener("mouseenter", function () {
+        console.log("mouseEnter");
+    });
